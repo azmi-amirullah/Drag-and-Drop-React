@@ -33,7 +33,7 @@ function Column({ name, card, index, AddAnotherCard, addAnotherCardClick }) {
 
                       {provided.placeholder}
                       {AddAnotherCard.index == index && AddAnotherCard.isOpen ? (
-                        <div className={`px-2 ${card.length > 0 ? "pt-0 pb-1" : "py-1"}`}>
+                        <div className={`px-2 ${card.length > 0 ? "pt-0 pb-1" : "py-1"}`} style={{ backgroundColor: "white" }}>
                           <TextareaAutosize
                             className="form-control form-control-sm mb-2"
                             minRows={2}
