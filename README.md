@@ -1,6 +1,6 @@
 # Drag and Drop React
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).\
 Created with : npx create-react-app, react-beautiful-dnd, "react-textarea-autosize"
 
 ## Available Scripts
